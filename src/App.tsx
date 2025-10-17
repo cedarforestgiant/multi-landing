@@ -89,9 +89,9 @@ export default function MultiLanding() {
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <Settings2 className="h-5 w-5" />
-              <h3 className="font-semibold">Clear intent</h3>
+              <h3 className="font-semibold">Smart execution</h3>
             </div>
-            <p className="text-white/70 text-sm leading-relaxed">One instruction. Multi handles the rest.</p>
+            <p className="text-white/70 text-sm leading-relaxed">Multi understands what you want and gets it done fast, without toggling modes.</p>
           </Card>
 
           <Card className="p-6">

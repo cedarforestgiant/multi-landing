@@ -62,21 +62,20 @@ export default function MultiLanding() {
             <div className="mt-6 text-sm text-white/60">Works with VS Code · JetBrains</div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.05 }}>
-            <Card className="p-5">
-              <div className="flex items-center gap-2 text-white/70 text-sm mb-3">
-                <TerminalSquare className="h-4 w-4" /> Terminal
-              </div>
-              <CodeBlock
-                lines={[
-                  'multi run "Add pagination; update tests; bench the handler"',
-                  '> 3 tasks detected',
-                  '> tasks started',
-                  '> diffs ready — review or apply',
-                ]}
+         <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.05 }}
+          >
+            <Card className="p-5 flex justify-center items-center">
+              <img
+                src="/skeleton.svg"
+                alt="Product UI placeholder"
+                className="w-full h-auto rounded-lg"
               />
             </Card>
           </motion.div>
+
         </div>
       </Section>
 
@@ -149,12 +148,12 @@ export default function MultiLanding() {
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Key capabilities</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
-            { icon: <Workflow className="h-5 w-5" />, title: "Multi agent", body: "Agent selects the best instruction for your task." },
-            { icon: <Layers className="h-5 w-5" />, title: "Parallel execution", body: "Run tool calls in parallel for fast results." },
+            { icon: <Workflow className="h-5 w-5" />, title: "Multi agent", body: "Agent selects the best instruction for your task." },  
+            { icon: <Layers className="h-5 w-5" />, title: "Parallel execution", body: "Run tool calls in parallel for fast results." }, // Tone (refer to branding guideline)
             { icon: <GitBranch className="h-5 w-5" />, title: "Branching ideas", body: "Fork the conversation and compare without leaving the workspace." },
             { icon: <ShieldCheck className="h-5 w-5" />, title: "Snapshots & rollback", body: "Apply changes safely, recover instantly." }, // need more details
             { icon: <Settings2 className="h-5 w-5" />, title: "Multi‑window / multi‑model", body: "Work across contexts in one surface." }, 
-            { icon: <TerminalSquare className="h-5 w-5" />, title: "BYO model provider", body: "Avoid lock‑in; configure per project." }, 
+            { icon: <TerminalSquare className="h-5 w-5" />, title: "Bring your model", body: "Avoid lock‑in." }, 
           ].map((f, i) => (
             <Card key={i} className="p-5">
               <div className="flex items-center gap-3 mb-2 text-white/80">
@@ -199,6 +198,7 @@ export default function MultiLanding() {
             <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Reliability</h2>
             <p className="text-white/80 max-w-prose">
               Fault‑tolerant by default. Fewer crashes, smoother long runs, and clean history with traceable, reversible changes.
+            // smarter
             </p>
           </div>
           <Card className="p-6">

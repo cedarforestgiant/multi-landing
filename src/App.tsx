@@ -117,7 +117,7 @@ export default function MultiLanding() {
       <Section id="how" className="py-10 sm:py-16">
         <div className="grid lg:grid-cols-2 gap-8 items-start">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">How it works</h2>
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">See it in action</h2>
             <ol className="list-decimal pl-5 space-y-3 text-white/80">
               <li>
                 <span className="font-medium text-white">Instruct</span> — Describe what you want done.
@@ -145,7 +145,7 @@ export default function MultiLanding() {
 
       {/* Capabilities */}
       <Section id="capabilities" className="py-10 sm:py-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Key capabilities</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Key features</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
             { icon: <Workflow className="h-5 w-5" />, title: "Multi agent", body: "Agent selects the best instruction for your task." },  

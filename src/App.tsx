@@ -134,7 +134,7 @@ export default function MultiLanding() {
         <img
           src="/skeleton.svg"
           alt="Product UI placeholder"
-          className="w-full h-auto rounded-lg"
+          className="w-full max-h-64 object-contain h-auto rounded-lg"
         />
       </Card>
         </div>

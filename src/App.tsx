@@ -59,7 +59,7 @@ export default function MultiLanding() {
                 <Github className="mr-2 h-4 w-4" /> Read the Docs
               </Button>
             </div>
-            <div className="mt-6 text-sm text-white/60">Works with GitHub · VS Code · JetBrains · CLI · API</div>
+            <div className="mt-6 text-sm text-white/60">Works with GitHub · VS Code · JetBrains · API</div>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.05 }}>
@@ -233,7 +233,6 @@ export default function MultiLanding() {
           <nav className="flex items-center gap-5 text-white/80 text-sm">
             <a href="#" className="hover:text-white" aria-label="Docs">Docs</a>
             <a href="#" className="hover:text-white" aria-label="GitHub">GitHub</a>
-            <a href="#" className="hover:text-white" aria-label="CLI">CLI</a>
             <a href="#" className="hover:text-white" aria-label="Privacy">Privacy</a>
           </nav>
         </Section>

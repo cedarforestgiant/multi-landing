@@ -44,6 +44,7 @@ export default function MultiLanding() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <Badge>Multi Agent · Multi Instruction · Multi Model</Badge>
+              <img src="/logo.svg" alt="Multi Logo" className="h-10 w-auto mb-6"   // add some margin below to separate it from the headline/>
             <h1 className="mt-5 text-4xl sm:text-6xl font-semibold tracking-tight">
               Ship faster <span className="text-white/70">with</span> <span style={{ color: accent }}>precision</span>.
             </h1>

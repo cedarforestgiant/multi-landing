@@ -130,16 +130,13 @@ export default function MultiLanding() {
               </li>
             </ol>
           </div>
-          <Card className="p-6">
-            <CodeBlock
-              lines={[
-                'multi plan "migrate users to /v2; add rate limit; write tests"',
-                '> plan ready (3 tasks)',
-                '> tasks started',
-                '> snapshot saved — rollback available',
-              ]}
-            />
-          </Card>
+      <Card className="p-6 flex justify-center items-center">
+        <img
+          src="/skeleton.svg"
+          alt="Product UI placeholder"
+          className="w-full h-auto rounded-lg"
+        />
+      </Card>
         </div>
       </Section>
 

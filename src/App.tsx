@@ -59,7 +59,7 @@ export default function MultiLanding() {
                 <Github className="mr-2 h-4 w-4" /> Read the Docs
               </Button>
             </div>
-            <div className="mt-6 text-sm text-white/60">Works with GitHub · VS Code · JetBrains · API</div>
+            <div className="mt-6 text-sm text-white/60">Works with VS Code · JetBrains</div>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.05 }}>
@@ -86,7 +86,7 @@ export default function MultiLanding() {
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <Settings2 className="h-5 w-5" />
-              <h3 className="font-semibold">Smarter intent</h3>
+              <h3 className="font-semibold">Smart</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
               Handles multi‑instruction prompts in one pass. No mode toggles. Understands what you want done, fast.
@@ -95,19 +95,20 @@ export default function MultiLanding() {
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <Zap className="h-5 w-5" />
-              <h3 className="font-semibold">Speed</h3>
+              <h3 className="font-semibold">Fast</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
               Low‑latency loop with instant plans and diffs. Minimal UI friction to keep you in flow.
+            // rephrase!
             </p>
           </Card>
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <Layers className="h-5 w-5" />
-              <h3 className="font-semibold">Parallel task runs</h3>
+              <h3 className="font-semibold">Accurate</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Run multiple tasks at the same time and manage progress in one workspace.
+              We'll look into MCP.
             </p>
           </Card>
         </div>
@@ -148,12 +149,12 @@ export default function MultiLanding() {
         <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Key capabilities</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
-            { icon: <Workflow className="h-5 w-5" />, title: "Multi‑instruction support", body: "Complex asks with minimal back‑and‑forth." },
-            { icon: <Layers className="h-5 w-5" />, title: "Parallel task runs", body: "Spin up tasks at the same time." },
-            { icon: <GitBranch className="h-5 w-5" />, title: "In‑window forking", body: "Branch ideas and compare without leaving the workspace." },
-            { icon: <ShieldCheck className="h-5 w-5" />, title: "Snapshots & rollback", body: "Apply safely, recover instantly." },
-            { icon: <Settings2 className="h-5 w-5" />, title: "Multi‑window / multi‑model", body: "Work across contexts in one surface." },
-            { icon: <TerminalSquare className="h-5 w-5" />, title: "BYO model provider", body: "Avoid lock‑in; configure per project." },
+            { icon: <Workflow className="h-5 w-5" />, title: "Multi agent", body: "Agent selects the best instruction for your task." },
+            { icon: <Layers className="h-5 w-5" />, title: "Parallel execution", body: "Run tool calls in parallel for fast results." },
+            { icon: <GitBranch className="h-5 w-5" />, title: "Branching ideas", body: "Fork the conversation and compare without leaving the workspace." },
+            { icon: <ShieldCheck className="h-5 w-5" />, title: "Snapshots & rollback", body: "Apply changes safely, recover instantly." }, // need more details
+            { icon: <Settings2 className="h-5 w-5" />, title: "Multi‑window / multi‑model", body: "Work across contexts in one surface." }, 
+            { icon: <TerminalSquare className="h-5 w-5" />, title: "BYO model provider", body: "Avoid lock‑in; configure per project." }, 
           ].map((f, i) => (
             <Card key={i} className="p-5">
               <div className="flex items-center gap-3 mb-2 text-white/80">

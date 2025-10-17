@@ -26,9 +26,9 @@ const Card: React.FC<React.PropsWithChildren<{ className?: string }>> = ({ class
 );
 
 const CodeBlock: React.FC<{ lines: string[] }> = ({ lines }) => (
-  <pre className="rounded-xl border border-white/10 bg-black/60 p-4 text-[13px] leading-relaxed text-white/90 overflow-x-auto font-mono">
+  <pre className="rounded-xl border border-white/10 bg-black/60 p-4 text-[13px] leading-relaxed text-white/90 overflow-x-hidden font-mono">
     {lines.map((l, i) => (
-      <div key={i} className="whitespace-pre">
+      <div key={i} className="whitespace-pre-wrap break-words">
         <span className="select-none text-white/30">$ </span>
         {l}
       </div>

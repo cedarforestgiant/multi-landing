@@ -71,7 +71,7 @@ export default function MultiLanding() {
               </Button>
             </div>
 
-            <div className="mt-6 text-sm text-white/60">Works with GitHub · VS Code · JetBrains · API</div>
+            <div className="mt-6 text-sm text-white/60">Works with VS Code · JetBrains · and more coming soon!</div>
           </motion.div>
 
           {/* Hero visual → skeleton image */}

@@ -41,10 +41,10 @@ export default function MultiLanding() {
           <img src="/logo.svg" alt="Multi Logo" className="h-20 w-auto mb-6" />
 
           <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight">
-            Ship faster. Ship smarter.
+            Code without friction. 
           </h1>
           <p className="mt-5 text-white/80 max-w-xl">
-            You describe it. Multi gets it done — fast, clean, and without breaking your flow.
+            You build it. Multi gets it done fast and clean, keeping you in the flow.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -68,7 +68,7 @@ export default function MultiLanding() {
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <Settings2 className="h-5 w-5" />
-              <h3 className="font-semibold">Smart execution</h3>
+              <h3 className="font-semibold">Fast</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
               Multi understands what you want and gets it done fast — no extra steps.
@@ -78,30 +78,30 @@ export default function MultiLanding() {
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <TerminalSquare className="h-5 w-5" />
-              <h3 className="font-semibold">Instant feedback</h3>
+              <h3 className="font-semibold">Smart</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              See the plan immediately — no waiting.
+              Comprehends your code and matches your style
             </p>
           </Card>
 
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <Layers className="h-5 w-5" />
-              <h3 className="font-semibold">Parallel work</h3>
+              <h3 className="font-semibold">In the flow</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Run multiple tasks in parallel without losing context.
+              Runs tasks in parallel, so you can build without interruption.
             </p>
           </Card>
         </div>
       </Section>
 
-      {/* How it works */}
+      {/* See Multi in Action */}
       <Section id="how" className="py-10 sm:py-16">
         <div className="grid lg:grid-cols-2 gap-8 items-start">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">How it works</h2>
+            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">See Multi in Action</h2>
             <ol className="list-decimal pl-5 space-y-3 text-white/80">
               <li><span className="font-medium text-white">You describe what you want.</span></li>
               <li><span className="font-medium text-white">Multi previews the plan before it touches your code.</span></li>
@@ -120,17 +120,16 @@ export default function MultiLanding() {
         </div>
       </Section>
 
-      {/* Capabilities */}
+      {/* Multi does more */}
       <Section id="capabilities" className="py-10 sm:py-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Key capabilities</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Multi does more</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
-            { icon: <Layers className="h-5 w-5" />, title: "Run tasks in parallel", body: "Kick off multiple jobs at once and stay in flow." },
-            { icon: <GitBranch className="h-5 w-5" />, title: "Fork safely", body: "Fork work without touching your main branch." },
-            { icon: <ShieldCheck className="h-5 w-5" />, title: "Snapshots & rollback", body: "Undo any change, instantly." },
-            { icon: <Workflow className="h-5 w-5" />, title: "Work across workspaces", body: "Switch without losing context." },
-            { icon: <Settings2 className="h-5 w-5" />, title: "No lock-in", body: "Configure the tools you prefer." },
-            { icon: <TerminalSquare className="h-5 w-5" />, title: "Fast plans & diffs", body: "See changes before they apply." },
+            { icon: <Layers className="h-5 w-5" />, title: "Multi agent", body: "Start multiple agents all at once." },
+            { icon: <GitBranch className="h-5 w-5" />, title: "Forking", body: "Branch ideas, experiment fast, don't lose conversational context." },
+            { icon: <ShieldCheck className="h-5 w-5" />, title: "Snapshots & rollback", body: "Undo any change instantly." },
+            { icon: <Workflow className="h-5 w-5" />, title: "400+ LLMs", body: "Choose from 100+ providers and 400+ LLMs." },
+        
           ].map((f, i) => (
             <Card key={i} className="p-5">
               <div className="flex items-center gap-3 mb-2 text-white/80">
@@ -166,25 +165,6 @@ export default function MultiLanding() {
             </div>
           </div>
         </Card>
-      </Section>
-
-      {/* Reliability */}
-      <Section id="reliability" className="py-10 sm:py-16">
-        <div className="grid md:grid-cols-2 gap-6 items-start">
-          <div>
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Reliability</h2>
-            <p className="text-white/80 max-w-prose">
-              Ship confidently. Multi keeps your work safe — easy rollback, fewer crashes.
-            </p>
-          </div>
-          <Card className="p-6">
-            <ul className="space-y-3 text-white/80">
-              <li>• Recovers from failure without corrupting your repo</li>
-              <li>• Automatic snapshots and rollback</li>
-              <li>• No more worktrees; safer than direct writes</li>
-            </ul>
-          </Card>
-        </div>
       </Section>
 
       {/* CTA */}

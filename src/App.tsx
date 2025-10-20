@@ -160,18 +160,11 @@ export default function MultiLanding() {
       {/* CTA */}
       <Section id="cta" className="py-14">
         <Card className="p-8 text-center">
-          <h3 className="text-2xl sm:text-3xl font-semibold">Ship faster. Ship smarter.</h3>
+          <h3 className="text-2xl sm:text-3xl font-semibold">Ship smarter</h3>
           <p className="mt-2 text-white/80">No friction. Just flow.</p>
           <div className="mt-6 flex items-center justify-center gap-3">
             <Button className="h-11 rounded-xl px-5 text-base font-medium" style={{ backgroundColor: accent }}>
               Install Multi <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button
-              variant="outline"
-              className="h-11 rounded-xl px-5 text-base font-medium border-white/20"
-              style={{ color: "#6B7280" }}
-            >
-              Read the Docs
             </Button>
           </div>
         </Card>

@@ -97,26 +97,16 @@ export default function MultiLanding() {
         </div>
       </Section>
 
-      {/* See Multi in Action */}
-      <Section id="how" className="py-10 sm:py-16">
-        <div className="grid lg:grid-cols-2 gap-8 items-start">
-          <div>
-            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">See Multi in Action</h2>
-            <ol className="list-decimal pl-5 space-y-3 text-white/80">
-              <li><span className="font-medium text-white">You describe what you want.</span></li>
-              <li><span className="font-medium text-white">Multi previews the plan before it touches your code.</span></li>
-              <li><span className="font-medium text-white">Run it.</span> Undo or fork with one click.</li>
-            </ol>
-          </div>
+      
 
-          {/* Visual (skeleton) */}
-          <Card className="p-6 flex justify-center items-center">
-            <img
-              src="/skeleton.svg"
-              alt="Product UI placeholder"
-              className="w-full max-h-48 object-contain h-auto rounded-lg"
-            />
-          </Card>
+{/* Demo video placeholder spanning the page */}
+      <Section id="how" className="py-10 sm:py-16">
+        <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.02] p-2">
+        <img
+        src="/skeleton.svg"
+        alt="Demo video placeholder"
+        className="w-full h-auto rounded-xl object-contain"
+        />
         </div>
       </Section>
 

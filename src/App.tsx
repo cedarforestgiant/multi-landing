@@ -41,7 +41,7 @@ export default function MultiLanding() {
           <img src="/logo.svg" alt="Multi Logo" className="h-20 w-auto mb-6" />
 
           <h1 className="text-4xl sm:text-6xl font-semibold tracking-tight">
-            Code without friction. 
+            Code without friction 
           </h1>
           <p className="mt-5 text-white/80 max-w-xl">
             You write the prompt. Multi gets it done fast and clean, keeping you in the flow.

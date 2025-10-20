@@ -44,7 +44,7 @@ export default function MultiLanding() {
             Code without friction. 
           </h1>
           <p className="mt-5 text-white/80 max-w-xl">
-            You build it. Multi gets it done fast and clean, keeping you in the flow.
+            You write the prompt. Multi gets it done fast and clean, keeping you in the flow.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">

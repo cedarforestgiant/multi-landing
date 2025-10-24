@@ -112,7 +112,7 @@ export default function MultiLanding() {
 
       {/* Multi does more */}
       <Section id="capabilities" className="py-10 sm:py-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Multi does more</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-6" items-center>Multi does more</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
             { icon: <Layers className="h-5 w-5" />, title: "Multi agent", body: "Start multiple agents all at once." },

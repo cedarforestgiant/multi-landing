@@ -91,7 +91,7 @@ export default function MultiLanding() {
               <h3 className="font-semibold">In flow</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Runs tasks in parallel <br> → build without interruption.
+              Runs tasks in parallel <br></br> → build without interruption.
             </p>
           </Card>
         </div>

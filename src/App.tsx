@@ -44,7 +44,7 @@ export default function MultiLanding() {
             Code without friction 
           </h1>
           <p className="mt-5 text-white/80 max-w-xl">
-            You prompt. Multi gets your coding done fast and clean, keeping you in the flow.
+             The fastest, smartest coding agent, made for builders who ship.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -71,7 +71,7 @@ export default function MultiLanding() {
               <h3 className="font-semibold">Fast</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Multi understands what you want and gets it done fast — no extra steps.
+              Multi understands what you want and gets it done fast.
             </p>
           </Card>
 
@@ -81,17 +81,17 @@ export default function MultiLanding() {
               <h3 className="font-semibold">Smart</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Comprehends your code and matches your style
+              Learns your stack, not the other way around.
             </p>
           </Card>
 
           <Card className="p-6">
             <div className="flex items-center gap-3 mb-3 text-white/80">
               <Layers className="h-5 w-5" />
-              <h3 className="font-semibold">In the flow</h3>
+              <h3 className="font-semibold">In flow</h3>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Runs tasks in parallel, so you can build without interruption.
+              Runs tasks in parallel <br> → build without interruption.
             </p>
           </Card>
         </div>
@@ -117,8 +117,8 @@ export default function MultiLanding() {
           {[
             { icon: <Layers className="h-5 w-5" />, title: "Multi agent", body: "Start multiple agents all at once." },
             { icon: <GitBranch className="h-5 w-5" />, title: "Forking", body: "Branch ideas, experiment fast, don't lose conversational context." },
-            { icon: <ShieldCheck className="h-5 w-5" />, title: "Snapshots & rollback", body: "Undo any change instantly." },
-            { icon: <Workflow className="h-5 w-5" />, title: "400+ LLMs", body: "Choose from 100+ providers and 400+ LLMs." },
+            { icon: <ShieldCheck className="h-5 w-5" />, title: "Any model", body: "Choose from 100+ providers and 400+ LLMs." },
+            { icon: <Workflow className="h-5 w-5" />, title: "Snapshots & rollback", body: "Undo any change instantly." },
         
           ].map((f, i) => (
             <Card key={i} className="p-5">
@@ -160,8 +160,8 @@ export default function MultiLanding() {
       {/* CTA */}
       <Section id="cta" className="py-14">
         <Card className="p-8 text-center">
-          <h3 className="text-2xl sm:text-3xl font-semibold">Ship smarter</h3>
-          <p className="mt-2 text-white/80">No friction. Just flow.</p>
+          <h3 className="text-2xl sm:text-3xl font-semibold">Get started</h3>
+          <p className="mt-2 text-white/80"> </p>
           <div className="mt-6 flex items-center justify-center gap-3">
             <Button className="h-11 rounded-xl px-5 text-base font-medium" style={{ backgroundColor: accent }}>
               Install Multi <ArrowRight className="ml-2 h-4 w-4" />
